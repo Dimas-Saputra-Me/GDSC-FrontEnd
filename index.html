@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies21</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Responsive Navbar -->
+  <nav>
+    <div class="menu-icon">
+      <span class="fas fa-bars"></span>
+    </div>
+    <div class="logo"> Movies21 </div>
+    <div class="nav-items">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./html/about.html">About</a></li>
+    </div>
+    <div class="search-icon">
+      <span class="fas fa-search"></span>
+    </div>
+    <div class="cancel-icon">
+      <span class="fas fa-times"></span>
+    </div>
+    <form>
+          <input type="search" class="search-data" placeholder="Search Movie With ID" id="searchBox" required>
+          <button type="button" class="fas fa-search" onclick="search()"></button>
+    </form>
+  </nav>
+  <!-- Responsive Navbar -->
+
+  <h1 class="judul-text">Movies21</h1>
+
+  <div id="containerFilm">
+
+  </div>
+
+  <script src="./javascript/script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- script untuk icon search -->
+</body>
+</html>
+
+
+<!-- 
+  CREDITS 
+  credits navbar = https://gist.github.com/safwendr/8e580b9ee0bc7dac4d0d8b7e92656826
+  credits API = https://jsonplaceholder.typicode.com/
+  Credits box-design = https://getcssscan.com/css-box-shadow-examples
+ -->
